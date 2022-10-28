@@ -1,0 +1,14 @@
+cumle = str(input("cümleyi girin ="))
+sesli = ["a","e","ı","i","o","ö","u","ü"]
+sessiz = ["b","c","ç","d","f","g","ğ","h","j","k","l","m","n","p","r","s","ş","t","v","y","z"]
+sayı1 = 0
+sayı2 = 0
+for i in cumle:
+      for a in sesli:
+            if a == i:
+                  sayı1 += 1
+      for b in sessiz:
+            if b == i:
+                  sayı2 += 1
+
+print("sesli harf",sayı1,"\nsessiz harf",sayı2)
