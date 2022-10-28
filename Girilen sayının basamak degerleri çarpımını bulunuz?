@@ -1,0 +1,8 @@
+sayı = input("sayısı girin =")
+a = 1
+
+for rakam in sayı:
+      a *= int(rakam)
+      print(rakam)
+
+print("sayıların rakamlar çarpımı =" ,a)
