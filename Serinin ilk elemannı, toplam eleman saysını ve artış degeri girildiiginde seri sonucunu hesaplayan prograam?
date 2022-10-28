@@ -1,0 +1,10 @@
+
+ılkE = int(input("ilk elemanı giri ="))
+topE = int(input("toplam eleman sayısını girin ="))
+artışD = int(input("Artış degerini yazın ="))
+print(ılkE)
+
+for i in range(topE-1):
+   bos = ılkE + artışD
+   ılkE = bos
+   print(ılkE)
