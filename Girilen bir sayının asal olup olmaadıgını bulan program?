@@ -1,0 +1,19 @@
+sayı = int(input("sayıyı girin ="))
+a = 0
+if sayı == 1:
+   print("sayı asaldır")
+else:
+
+    for i in range(2,sayı):
+        if sayı != i:
+
+            if (sayı % i) == 0:
+                a = 1
+                break
+            else:
+                a = 2
+    
+if a == 1:
+   print("sayı asal değil")
+elif a == 2:
+   print("sayı asal")
