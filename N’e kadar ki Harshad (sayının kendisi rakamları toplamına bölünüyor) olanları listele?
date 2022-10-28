@@ -1,0 +1,16 @@
+def top(a):
+      basamak = 0
+      a = str(a)
+      for i in a:
+            basamak += int(i)
+
+      return basamak
+
+sayı = int(input("sayı girin ="))
+
+for c in range(1,sayı):
+
+      if (c % top(c)) == 0:
+            print(c)
+      else:
+            continue
