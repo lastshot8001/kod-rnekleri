@@ -1,0 +1,16 @@
+
+sayı = input("sayıyı girin =")
+hangi =int(input("Hangi rakam olmasın ="))
+rakam = []
+
+for i in sayı:
+      if int(i) != hangi:
+            rakam += i
+
+      else:
+            continue
+
+for i in range(0, len(rakam)):
+      rakam[i] = int(rakam[i])
+
+print(rakam)
