@@ -1,0 +1,26 @@
+
+def sagSol(g):
+      for c in range(0, len(g)):
+           g[c] = int(g[c])
+      return g
+
+
+sayı = input("Bir sayı girin =")
+cevap = 0
+bos = []
+for i in sayı:
+      bos += i
+      bos = sagSol(bos)
+
+
+for a in range(len(sayı)-1):
+
+
+      if bos[a]+1 == bos[a+1] or bos[a]-1 == bos[a+1]:
+            continue
+      else:
+            cevap = 1
+if cevap == 1:
+      print("jumbled sayı değil")
+if cevap == 0:
+      print("jumbled sayı ")
