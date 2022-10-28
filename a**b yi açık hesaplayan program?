@@ -1,0 +1,6 @@
+a = int(input("a sayısını girin ="))
+b = int(input("b sayısını girin ="))
+c = 1
+for i in range(b):
+    c *= a
+    print(c)
