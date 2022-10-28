@@ -1,0 +1,19 @@
+print("işlemi bitirmek için f yazın")
+a =()
+negatif = 0
+pozitif = 0
+sıfır = 0
+while a != "f":
+   sayı = input("sayıyı girin = ")
+   if str(sayı) =="f":
+      break
+
+   elif int(sayı) < 0:
+      negatif += 1
+
+   elif int(sayı) == 0:
+      sıfır += 1
+
+   elif int(sayı) > 0:
+      pozitif += 1
+print("\npozitif sayı =" ,pozitif,"\nnegatif sayı =",negatif, "\nsıfır sayısı",sıfır)
