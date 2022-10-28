@@ -1,0 +1,15 @@
+liste = []
+adet = int(input('Kaç Sayı Girilecek: '))
+for n in range(adet):
+    sayi = int(input('Sayıyı Gir: '))
+    liste.append(sayi)
+ 
+en_kucuk = liste[0]
+en_buyuk = liste[0]
+for n in liste:
+  
+  if en_kucuk > n:
+    en_kucuk = n
+  if en_buyuk < n:
+    en_buyuk = n
+print("Liste İçindeki En Büyük Sayı :", en_buyuk, "\nListe İçindeki En Büyük Sayı :",en_kucuk)
