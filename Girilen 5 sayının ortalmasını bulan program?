@@ -1,0 +1,6 @@
+top = 0
+ for i in range(5):
+     a = int(input("sayıları gırın = "))
+     top += a
+ 
+print(top/5)
