@@ -1,0 +1,9 @@
+a = int(input("a sayısını girin ="))
+top = 0
+carp = 1
+for i in range(1,a+1):
+    if (i%2) != 0:
+        top+=i
+    else:
+        carp *= i
+print("tek sayıların toplam:",top,"\nçift sayıların carpım:",carp)
