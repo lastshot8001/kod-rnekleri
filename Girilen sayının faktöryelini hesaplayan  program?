@@ -1,0 +1,5 @@
+a = int(input("faktöryeli girin ="))
+fak = 1
+for i in range(1,a+1):
+    fak *= i
+print("sonuç",fak)
