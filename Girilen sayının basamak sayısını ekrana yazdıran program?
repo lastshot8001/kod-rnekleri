@@ -1,0 +1,6 @@
+
+sayı = input("sayıyı girin =")
+basamak = 0
+for i in sayı:
+      basamak += 1
+print(basamak)
