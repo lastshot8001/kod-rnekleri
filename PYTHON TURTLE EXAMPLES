@@ -1,0 +1,21 @@
+import time
+from turtle import *
+height = 700
+width = 700
+screen = Screen()
+screen.setup(width, height)
+screen.screensize(2500,2500)
+
+
+
+
+turtle.speed(10)
+turtle.color("cyan")
+turtle.bgcolor("black")
+b = 200
+while b > 0:
+    turtle.left(b)
+    turtle.forward(b * 3)
+    b = b - 1
+time.sleep(10)
+
